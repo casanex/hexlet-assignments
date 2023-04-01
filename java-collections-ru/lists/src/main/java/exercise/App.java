@@ -8,8 +8,8 @@ class App {
     public static boolean scrabble(String symbols, String word) {
 
         int length = word.length();
-        String[] letters = symbols.split("");
-        List coll = new ArrayList(Arrays.asList(letters));
+        String[] letterss = symbols.split("");
+        List coll = new ArrayList(Arrays.asList(letterss));
 
         for (int i = 0; i < length; i++) {
             String current = word.substring(i, i + 1).toLowerCase();
